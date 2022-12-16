@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "python_playground"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Python Playground", email="florian2richter@gmail.com" },
 ]
@@ -16,7 +16,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
+dependencies = [
+    "pytest",
+]
 [project.urls]
 "Homepage" = "https://github.com/Florian2Richter/python_playground"
 "Bug Tracker" = "https://github.com/Florian2Richter/python_playground"
